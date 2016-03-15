@@ -1,0 +1,252 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Department of Housing and Urban Development (HUD)</origin>
+        <pubdate>20140401</pubdate>
+        <title>TN_500</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The dataset contains the geographic boundaries for The U.S. Department of Housing and Urban Development's Continuum of Care (CoC) areas. The dataset is current for 2014 and contains the geographic boundaries for all of the 2014 claimed CoC areas and includes funding status information.</abstract>
+      <purpose>The U.S. Department of Housing and Urban Development is providing these data sets for use by Continuum of Care grantees, homeless services planners and research institutions. Because HUD provides competitive funding for homeless services through a Continuum of Care structure that is developed at the local level, outside research based on this structure cannot be accomplished without the provision of the geographic boundaries and related data provided herein. Therefore, this data set was developed to make the Continuum of Care process and funding as transparent as possible to the public.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20140101</begdate>
+          <enddate>20141231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>CoC FY2014.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-86.333370</westbc>
+        <eastbc>-84.292325</eastbc>
+        <northbc>35.825158</northbc>
+        <southbc>34.982931</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Department of Housing and Urban Development Continuum of Care Homeless Assistance Programs, 69 Fed. Reg. 27495 (May 14, 2004).</themekt>
+        <themekey>Homeless</themekey>
+        <themekey>Continuum of Care</themekey>
+        <themekey>CoC</themekey>
+      </theme>
+    </keywords>
+    <accconst>The dataset can be downloaded from The U.S. Department of Housing and Urban Development website, https://www.hudexchange.info/coc/gis-tools/. The dataset may only be re-distributed in original form and may not be distributed in part or in modified form.</accconst>
+    <useconst>HUD and the dataset and metadata authors assume no responsibility for the use or misuse of the dataset. No warranty, expressed or implied is made with regard to the accuracy of the spatial accuracy, and no liability is assumed by the U.S. Government in general, the dataset creators or the U.S. Department of Housing and Urban Development specifically, as to the spatial or attribute accuracy of the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>ICF International</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>9300 Lee Highway</address>
+          <city>Fairfax</city>
+          <state>VA</state>
+          <postal>22031</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>703-934-3731</cntvoice>
+        <cntemail>info@hudexchange.info</cntemail>
+        <hours>9:00 a.m. to 5:00 p.m. Eastern Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>ICF International</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>9300 Lee Highway</address>
+          <city>Fairfax</city>
+          <state>VA</state>
+          <postal>22031</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>703-934-3731</cntvoice>
+        <cntemail>info@hudexchange.info</cntemail>
+        <hours>9:00 a.m. to 5:00 p.m. Eastern Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This data set was developed by the U.S. Department of Housing and Urban Development (HUD).</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <logic>The data set is composed of an aggregate of State and Territory, County, Municipal and County Subdivision (Township) boundary data. </logic>
+    <complete>The data set is a complete representation of the input HUD geocodes.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>U.S. Census Bureau, 2011 Shapefile Boundaries.</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>U.S. Census Bureau, 2011 Shapefile Boundaries.</srccitea>
+        <srccontr>County &amp; Municipio, Cousub &amp; Place boundary data.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>In order to create the boundaries for the 2014 Continuums of Care, data was combined through a series of steps based on the HUD geocode definitions. The basis of CoC geographic boundaries are the State (or Territory), County (Municipio in Puerto Rico), County Subdivision (Township) or Municipal (City) boundaries with which each CoC is associated. The boundary for any particular CoC can be a combination of any of the above mentioned geographic boundary categories. CoC boundaries were calculated by the intersection of the above mentioned geographic boundary categories, as defined by the HUD geocodes and US Census Bureau geography. </procdesc>
+        <procdate>20140421</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TN_500</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ST</attrlabl>
+        <attrdef>State Abbreviation</attrdef>
+        <attrdefs>US Census Bureau</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CoCName</attrlabl>
+        <attrdef>CoC Name</attrdef>
+        <attrdefs>HUD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE_NAME</attrlabl>
+        <attrdef>State Name</attrdef>
+        <attrdefs>US Census Bureau</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CoCNum</attrlabl>
+        <attrdef>CoC Number</attrdef>
+        <attrdefs>HUD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ARD</attrlabl>
+        <attrdef>Annual Renewal Demand Value in dollars.</attrdef>
+        <attrdefs>HUD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PPRN</attrlabl>
+        <attrdef>Preliminary Pro-Rata Need value in dollars.</attrdef>
+        <attrdefs>HUD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FPRN</attrlabl>
+        <attrdef>Final Pro Rata Need amount in dollars.</attrdef>
+        <attrdefs>HUD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FPRN_STATU</attrlabl>
+        <attrdef>Final CoC Need Status</attrdef>
+        <attrdefs>HUD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>FY14 CoC attributes including Annual Renewal Demand (ARD) / Final Pro-Rata Need (FPRN) Status and Preliminary Pro-Rata Need (PPRN) totals.</eaover>
+      <eadetcit>Department of Housing and Urban Development Continuum of Care Homeless Assistance Programs, 69 Fed. Reg. 27495 (May 14, 2004).</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>ICF International</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>9300 Lee Valley</address>
+          <city>Fairfax</city>
+          <state>VA</state>
+          <postal>22031</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>703-934-3731</cntvoice>
+        <cntemail>info@hudexchange.info</cntemail>
+        <hours>9:00 a.m. to 5:00 p.m. Eastern Standard Time</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150421</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>ICF International</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>9300 Lee Highway</address>
+          <city>Fairfax</city>
+          <state>VA</state>
+          <postal>22031</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>703-934-3731</cntvoice>
+        <cntemail>info@hudexchange.info</cntemail>
+        <hours>9:00 a.m. to 5:00 p.m. Eastern Standard Time</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
